@@ -1,0 +1,9 @@
+.propertyWrapper {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.flexContainer {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,16 @@
+.offlineIndicatorWrapper {
+  margin-bottom: 20px;
+}
+
+.offlineIndicator {
+  padding: 20px;
+}
+
+.offlineHeader {
+  margin-top: 0px;
+}
+
+.offlineMainContent {
+  display: flex;
+  gap: 10px;
+}
