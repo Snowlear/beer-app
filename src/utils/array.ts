@@ -1,4 +1,4 @@
-const arrayUnique = (array: any[]): any[] => {
+export const arrayUnique = (array: any[]): any[] => {
   var a = array.concat();
   for (var i = 0; i < a.length; ++i) {
     for (var j = i + 1; j < a.length; ++j) {
@@ -9,7 +9,7 @@ const arrayUnique = (array: any[]): any[] => {
   return a;
 };
 
-const compareObjects = (obj1: any, obj2: any): boolean => {
+export const compareObjects = (obj1: any, obj2: any): boolean => {
   const keys1 = Object.keys(obj1);
   const keys2 = Object.keys(obj2);
 
